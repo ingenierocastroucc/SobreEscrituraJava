@@ -1,0 +1,25 @@
+
+package ejemplosobreescritura;
+
+/**
+ *
+ * @author PEDRO
+ */
+public class EjemploSobreEscritura {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Empleado empleado = new Empleado("Juan","Martinez",1064115447,2000,"Cra-16-N-18A");
+        
+        System.out.println(empleado.obtenerDetalles());  
+        
+        Gerente gerente = new Gerente("Luis","Castro",12520817,2000,"Cra12-N-14B","Sistemas");
+        System.out.println(gerente.obtenerDetalles()); 
+        
+    }
+    
+}
